@@ -58,3 +58,6 @@ python scripts/release_readiness.py --report /tmp/ppkt-readiness.json
 
 ## Current review and milestone (20 November 2026)
 Charter **v0.2.3-RC1 is UNRATIFIED**; see `30_CHARTER/ARTICLE_REVIEW_v0_2_2.md` and `30_CHARTER/RATIFICATION_PACKET.md`. Development-only human D1 approval is distinct from any corporate/financial permission. Milestone 1.1 is a **design specification**, not an implemented service. See `40_PRODUCT/MILESTONE_1_1.md`. The complete synthetic module and external staging deployment have not yet been built.
+
+## Brand review PDF
+A visually reviewed, size-optimized 13-page Brand Standards PDF is committed as [`PPKT_Brand_Standards_v1_0_web.pdf`](PPKT_Brand_Standards_v1_0_web.pdf). The original lossless PDF is retained in the downloadable complete source package; the PDF is brand documentation, not financial authorization.
