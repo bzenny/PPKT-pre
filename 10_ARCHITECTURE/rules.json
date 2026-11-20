@@ -1,0 +1,24 @@
+{
+  "version": "0.2.2",
+  "complexity": "CORE",
+  "ordered_context": [
+    "FOLDERS",
+    "HTML",
+    "Markdown",
+    "JSON",
+    "YAML"
+  ],
+  "authority_priority": [
+    "applicable_law_and_executed_contracts",
+    "ratified_human_decisions",
+    "registered_modules",
+    "implementation"
+  ],
+  "prohibited": [
+    "code_grants_legal_license",
+    "token_burn_implies_fiat_payout",
+    "unverified_cost_savings_claim",
+    "unbacked_stablecoin_issue",
+    "secrets_in_public_repo"
+  ]
+}

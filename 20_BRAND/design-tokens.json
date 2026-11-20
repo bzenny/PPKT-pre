@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "displayName": "PH Probinsyano Token",
+    "identifier": "PPKT",
+    "selectedSymbol": "Symbol 05 — Community Heritage Mark",
+    "status": "concept approved / production vector pending"
+  },
+  "colors": {
+    "navy": "#0B1F4B",
+    "teal": "#0F766E",
+    "gold": "#D4A72C",
+    "cream": "#F8F4E6"
+  },
+  "typography": "Montserrat; system sans-serif fallback",
+  "pcco": "provisional unissued sister brand"
+}

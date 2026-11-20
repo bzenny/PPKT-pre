@@ -1,0 +1,66 @@
+{
+  "version": "0.2.2",
+  "status": "draft-register",
+  "decisions": [
+    {
+      "id": "D-001",
+      "name": "Brand",
+      "status": "design-selected",
+      "value": "PH Probinsyano Token/PPKT; Symbol 05"
+    },
+    {
+      "id": "D-002",
+      "name": "Parent jurisdiction",
+      "status": "open",
+      "value": "Singapore or Dubai"
+    },
+    {
+      "id": "D-003",
+      "name": "PH delivery",
+      "status": "proposed",
+      "value": "Preferred operations location; cost advantage unverified"
+    },
+    {
+      "id": "D-004",
+      "name": "PPKT issuance",
+      "status": "deferred",
+      "value": "No issued token in CORE"
+    },
+    {
+      "id": "D-005",
+      "name": "PCCO",
+      "status": "deferred",
+      "value": "No issued/redeemable/yield-bearing token"
+    },
+    {
+      "id": "D-006",
+      "name": "KDef",
+      "status": "proposed",
+      "value": "Independent committee and protected funding"
+    },
+    {
+      "id": "D-007",
+      "name": "Financial control",
+      "status": "open",
+      "value": "Segregated funds and independent bank/custodian diligence"
+    },
+    {
+      "id": "D-008",
+      "name": "Investor fundraising",
+      "status": "uncommitted",
+      "value": "Prospective, no signed terms or capital recognized"
+    },
+    {
+      "id": "D-016",
+      "name": "Delivery cost model",
+      "status": "open",
+      "value": "Confidential quantified estimate subject to independent validation"
+    },
+    {
+      "id": "D-017",
+      "name": "Cross-border risk",
+      "status": "open",
+      "value": "Country/provider-specific liquidity and solvency review"
+    }
+  ]
+}

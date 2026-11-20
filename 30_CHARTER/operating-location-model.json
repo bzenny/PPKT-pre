@@ -1,0 +1,13 @@
+{
+  "status": "proposal-unverified",
+  "parent_options": [
+    "Singapore",
+    "Dubai exact zone TBD"
+  ],
+  "preferred_delivery": "Philippines",
+  "numeric_private_estimate_exists": true,
+  "numeric_estimate_publicly_verified": false,
+  "consolidated_savings_verified": false,
+  "banking_risk_concern": "requires institution-specific due diligence",
+  "legal_and_launch_authorized": false
+}

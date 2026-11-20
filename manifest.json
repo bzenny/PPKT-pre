@@ -1,0 +1,15 @@
+{
+  "project": "PH Probinsyano Token",
+  "identifier": "PPKT",
+  "repo": "bzenny/PPKT-pre",
+  "version": "0.2.2-pre.1",
+  "stage": "pre-release",
+  "icm_profile": "MasterSys CORE",
+  "status": "unratified",
+  "corporate_domicile": "UNDECIDED",
+  "delivery_location_preferred": "Philippines",
+  "financing_status": "uncommitted",
+  "is_issued_token": false,
+  "has_live_customer_funds": false,
+  "canonical_charter": "30_CHARTER/PPKT_Building_Charter_v0_2.md"
+}

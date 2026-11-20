@@ -1,0 +1,16 @@
+{
+  "status": "unmeasured",
+  "comparators": [
+    "local bank or e-wallet",
+    "remittance provider",
+    "relevant digital token service"
+  ],
+  "measurements": [],
+  "required_metrics": [
+    "cost_php_per_php_1000",
+    "recipient_usable_funds_time",
+    "successful_completion_rate",
+    "unassisted_task_completion",
+    "dispute_resolution_hours"
+  ]
+}

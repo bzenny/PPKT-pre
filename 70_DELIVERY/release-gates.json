@@ -1,0 +1,53 @@
+{
+  "status": "UNRATIFIED",
+  "gates": [
+    {
+      "id": "G0",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G1",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G2",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G3",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G4",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G5",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G6",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    },
+    {
+      "id": "G7",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": []
+    }
+  ]
+}
