@@ -1,23 +1,60 @@
-# PH Probinsyano Token (PPKT) — Pre-release
+> **NOVEMBER 20, 2026 UPDATE:** PPKT-pre is the incubator. Parent-company domicile is **not selected**; Singapore and Dubai are jurisdictions for evaluation. No partner financing, corporate formation, licence, token issuance or user-fund operations are confirmed.
 
-**Repository:** `bzenny/PPKT-pre`  
-**Stage:** foundation / pre-release  
-**Production status:** not launched · no token issuance · no custody or payment operations
+# PH Probinsyano Token / PPKT — PPKT-pre Foundation
 
-PPKT-pre is the public development and validation workspace for **PH Probinsyano Token**, with **PPKT** reserved as the proposed market identifier. The selected visual direction is **Symbol 05 — Community Heritage Mark**.
+**State: PRE-RATIFICATION / SIMULATION ONLY** · 20 November 2026  
+**Purpose:** Corporate, product, governance, brand, evidence and validation baseline before application development.
 
-## Current governance status
-The Building Charter v0.2 is a **draft** and is not ratified. Corporate names, officers, independent bodies, partner services, user rights and regulatory permissions remain to be verified and adopted. No code or README may be construed as authorizing financial activity.
+> **No issued PPKT/PCCO token, licensed activity, signed partner, registered OperatingCo, funded KDef, verified reserves or publicly launched product is claimed.** This project is not an investment solicitation, an offer of financial instruments, or proof of authorization. All sample values are synthetic.
 
-## Build principles
-- Serve an actual financial inclusion problem before deploying tokens.
-- Keep customer backing, operating funds, KDef, rewards and lending capital separate.
-- Start with a synthetic family-transfer simulator and independently verified ledger.
-- Use ICM/MasterSys **CORE**: folders as boundaries; HTML for controlled authority; Markdown for contextual prose; JSON for machine-readable records; YAML for automation.
-- Validate security, usability, evidence and policy before each release.
-- No production secrets, private customer data or seed phrases in Git.
+## One-minute orientation
 
-## Development workflow
-Changes are proposed through branches and pull requests. The pre-launch gate deliberately remains blocked until approved evidence exists. The official core release will be planned separately; nothing in this repository represents that release.
+1. Open [`MASTER.html`](MASTER.html) — visual navigation and current authority state.
+2. Read [`00_PRIME/PRIME.html`](00_PRIME/PRIME.html) and [`CONTEXT.md`](CONTEXT.md) — who/what controls decisions.
+3. Review [`30_CHARTER/PPKT_Building_Charter_v0_2.md`](30_CHARTER/PPKT_Building_Charter_v0_2.md) — proposed charter and schedules; **not ratified**.
+4. Review [`95_RECORDS/decisions.json`](95_RECORDS/decisions.json) — recorded draft choices and required human approvals.
+5. Review [`20_BRAND/brand-standard.html`](20_BRAND/brand-standard.html) and [`20_BRAND/design-tokens.json`](20_BRAND/design-tokens.json) — selected Symbol 05 identity, production vector work pending.
+6. Review [`40_PRODUCT/PRD.md`](40_PRODUCT/PRD.md) and [`50_BUILD/ARCHITECTURE.md`](50_BUILD/ARCHITECTURE.md).
+7. Run tests; separately assess release-readiness. Passing CI is *not* permission to launch.
 
-See the foundation branch and its draft pull request for the proposed Charter v0.2, architectural scaffold, decision register and test gates.
+## Automated checks
+
+Requires **Python 3.11+**; no third-party Python dependencies.
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/check_core.py
+python scripts/release_readiness.py --report /tmp/ppkt-readiness.json
+# The last command prints BLOCKED until real evidence exists; use --enforce only in release workflow.
+```
+
+## MasterSys CORE / ICM practice
+
+**FOLDERS → HTML → Markdown → JSON → YAML.** Files convey scope, canonical documents convey human context, and machine records support checking. The chain is **not** a substitute for lawful human approval. `CORE` first; graduate to `STRUCTURED` and `INTELLIGENT` only when verified technical need justifies it. The repo holds one modular application boundary, not multiple microservices or autonomous agents.
+
+## Repository map
+
+- `00_PRIME` — human authority boundary, adoption prerequisites.
+- `10_ARCHITECTURE` — folder/rule registry, fund/role and module contracts.
+- `20_BRAND` — selected brand guide and reference art; concept art is *not* production vector.
+- `30_CHARTER` — proposed v0.2 charter, authority matrix, corporate/product/governance drafts.
+- `40_PRODUCT` — first user journey, customer rights, failure cases.
+- `50_BUILD` — future Cloudflare/Supabase/AI Studio architecture; no live credentials or migrations.
+- `60_EVIDENCE` — competitor hypotheses and measurement definitions.
+- `70_DELIVERY` — GitHub-to-prelaunch staged roadmap and gate evidence records.
+- `90_VALIDATION` — validator playbook, brand gate and threat scenario list.
+- `95_RECORDS` — decisions, approval ledger and history.
+- `scripts`, `tests`, `.github` — structural CI, evidence-only release gating and workflow templates.
+
+## Important distinction
+
+**GitHub CI green** means this documentation/scaffold remains internally consistent and its tests run; **G0–G7 blocked** means no approved commercial pre-launch. Do not configure financial production services from this draft alone. Legal counsel must confirm which financial licenses/authorities and disclosures apply to each actor and transaction.
+
+## GitHub onboarding
+
+**Public pre-release repository:** https://github.com/bzenny/PPKT-pre. Drafts must be proposed on branches and reviewed before any merge. The eventual official core release will have a separate adoption, release and repository decision. The private financial negotiation memo is not part of the public repository. **Do not upload `.env`, secrets, customer records or unreviewed financial claims.**
+
+> **Jurisdiction / cost note:** Cost and jurisdiction: PH delivery is the preferred operating baseline, while Singapore/Dubai parent options remain under diligence. No unverified percentage is a public financial-performance claim.
+
+## Current review and milestone (20 November 2026)
+Charter **v0.2.3-RC1 is UNRATIFIED**; see `30_CHARTER/ARTICLE_REVIEW_v0_2_2.md` and `30_CHARTER/RATIFICATION_PACKET.md`. Development-only human D1 approval is distinct from any corporate/financial permission. Milestone 1.1 is a **design specification**, not an implemented service. See `40_PRODUCT/MILESTONE_1_1.md`. The complete synthetic module and external staging deployment have not yet been built.

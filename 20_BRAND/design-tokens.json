@@ -1,16 +1,41 @@
 {
-  "brand": {
-    "displayName": "PH Probinsyano Token",
-    "identifier": "PPKT",
-    "selectedSymbol": "Symbol 05 — Community Heritage Mark",
-    "status": "concept approved / production vector pending"
-  },
-  "colors": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "PH Probinsyano Token",
+  "version": "1.0-draft-production",
+  "note": "Color and typography candidates from approved visual direction; final brand control remains pending sign-off. No financial or legal status implied.",
+  "color": {
     "navy": "#0B1F4B",
     "teal": "#0F766E",
     "gold": "#D4A72C",
-    "cream": "#F8F4E6"
+    "cream": "#F8F4E6",
+    "ink": "#1C2938",
+    "white": "#FFFFFF",
+    "pale": "#EEF3F4"
   },
-  "typography": "Montserrat; system sans-serif fallback",
-  "pcco": "provisional unissued sister brand"
+  "font": {
+    "display": "Montserrat",
+    "ui": "Inter",
+    "alternateUI": "Source Sans 3",
+    "fallback": "system-ui, sans-serif"
+  },
+  "space": {
+    "stepPx": 8
+  },
+  "responsiveMarks": {
+    "narrativeMinWidthPxProposed": 160,
+    "simplifiedMinWidthPxProposed": 64,
+    "microSizesToTestPx": [
+      16,
+      24,
+      32,
+      48
+    ]
+  },
+  "brand": {
+    "public": "PH Probinsyano Token",
+    "identifier": "PPKT",
+    "selectedSymbol": "05 \u2014 Community Heritage Mark",
+    "secondaryBrand": "PCCO (provisional)",
+    "stewardship": "KDef"
+  }
 }

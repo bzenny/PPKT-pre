@@ -1,0 +1,62 @@
+{
+  "version": "0.2.3-rc1",
+  "gate_type": "synthetic_development_only",
+  "status": "PENDING_D1_HUMAN_APPROVAL",
+  "scope": "no_real_money_or_token_issuance",
+  "gates": [
+    {
+      "id": "D0",
+      "name": "Documentation and repo safety",
+      "status": "review_required",
+      "evidence_required": [
+        "public confidentiality scan",
+        "charter marked unratified",
+        "reviewable PR",
+        "no protected tokens or credentials"
+      ],
+      "approver": "technical owner + independent reviewer"
+    },
+    {
+      "id": "D1",
+      "name": "Human go-ahead for sandbox engineering",
+      "status": "not_approved",
+      "evidence_required": [
+        "signed bounded development resolution",
+        "named technical owner and security reviewer",
+        "budget ceiling and expiry",
+        "authorized environment and secrets owner"
+      ],
+      "approver": "competent project proponent(s), not a fictional board"
+    },
+    {
+      "id": "M1.1-DESIGN",
+      "name": "Synthetic ledger/API design ready",
+      "status": "not_approved",
+      "evidence_required": [
+        "reviewed 1.1 spec",
+        "API and schema contract",
+        "test fixtures and threat cases",
+        "privacy boundary confirmed"
+      ],
+      "approver": "technical and independent security reviewer"
+    },
+    {
+      "id": "M1.1-ACCEPT",
+      "name": "Synthetic transaction operational acceptance",
+      "status": "not_approved",
+      "evidence_required": [
+        "CI green with required adversarial tests",
+        "isolated Supabase staging migration",
+        "Cloudflare API / UI evidence",
+        "zero real funds proof",
+        "reconciliation report",
+        "restore exercise"
+      ],
+      "approver": "technical owner, finance reviewer and independent verifier"
+    }
+  ],
+  "corporate_ratification_separate": "C0",
+  "real_money_legal_launch_separate": "F0",
+  "prelaunch_gates": "G0-G7",
+  "machine_check_may_not_set_human_approval": true
+}

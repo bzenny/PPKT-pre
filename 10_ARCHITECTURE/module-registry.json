@@ -1,0 +1,47 @@
+{
+  "version": "0.2",
+  "modules": [
+    {
+      "id": "identity",
+      "floor": "F2",
+      "status": "design-only",
+      "handles_money": false,
+      "owner_role": "security_privacy_lead"
+    },
+    {
+      "id": "quote",
+      "floor": "F1",
+      "status": "design-only",
+      "handles_money": false,
+      "owner_role": "product_owner"
+    },
+    {
+      "id": "ledger",
+      "floor": "F2",
+      "status": "design-only",
+      "handles_money": true,
+      "owner_role": "finance_reconciliation_lead"
+    },
+    {
+      "id": "settlement-simulator",
+      "floor": "BASEMENT",
+      "status": "design-only",
+      "handles_money": false,
+      "owner_role": "engineering_lead"
+    },
+    {
+      "id": "evidence",
+      "floor": "F2",
+      "status": "scaffold",
+      "handles_money": false,
+      "owner_role": "independent_reviewer"
+    },
+    {
+      "id": "governance",
+      "floor": "F3",
+      "status": "draft",
+      "handles_money": false,
+      "owner_role": "corporate_board"
+    }
+  ]
+}

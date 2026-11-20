@@ -1,0 +1,123 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "PPKT M1.1 synthetic sandbox API",
+    "version": "0.1.0",
+    "description": "DEVELOPMENT-ONLY, NO FINANCIAL SERVICES"
+  },
+  "servers": [
+    {
+      "url": "https://staging.example.invalid",
+      "description": "Illustrative placeholder, not deployed"
+    }
+  ],
+  "paths": {
+    "/v1/sandbox/quotes": {
+      "post": {
+        "summary": "Compute disclosed synthetic fee quote",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    },
+    "/v1/sandbox/transfers": {
+      "post": {
+        "summary": "Create idempotent synthetic transfer",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    },
+    "/v1/sandbox/transfers/{id}": {
+      "get": {
+        "summary": "Read own synthetic transfer",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    },
+    "/v1/sandbox/provider-events": {
+      "post": {
+        "summary": "Internal simulated adapter event only",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    },
+    "/v1/sandbox/reconciliation/run": {
+      "post": {
+        "summary": "Internal scoped reconciliation worker",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    },
+    "/v1/sandbox/evidence/{id}": {
+      "get": {
+        "summary": "Read reviewer-scoped redacted evidence",
+        "responses": {
+          "200": {
+            "description": "Synthetic response only"
+          }
+        },
+        "security": [
+          {
+            "SandboxActorAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "SandboxActorAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  },
+  "x-ppkt-invariants": {
+    "currency": "PHP",
+    "integerMinorUnitsOnly": true,
+    "uniqueIdempotencyPerActor": true,
+    "providerTimeoutNeverResubmits": true,
+    "reconciliationIsIndependent": true,
+    "realFundsForbidden": true,
+    "internalEndpointsAreNotPublic": true
+  }
+}

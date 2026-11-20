@@ -1,16 +1,38 @@
 {
-  "status": "unmeasured",
-  "comparators": [
-    "local bank or e-wallet",
-    "remittance provider",
-    "relevant digital token service"
+  "version": "0.1",
+  "status": "no_measurements",
+  "scope": "province-to-city PHP family support transfer",
+  "metrics": [
+    {
+      "id": "total_cost_php_1000",
+      "unit": "PHP",
+      "method": "all sender fees + recipient deductions for PHP 1000 send",
+      "required": true
+    },
+    {
+      "id": "usable_settlement_minutes",
+      "unit": "minutes",
+      "method": "start authorization to recipient spendable availability",
+      "required": true
+    },
+    {
+      "id": "completion_rate",
+      "unit": "fraction",
+      "method": "successful completed requests / attempted eligible requests",
+      "required": true
+    },
+    {
+      "id": "unaided_task_success",
+      "unit": "fraction",
+      "method": "successful unassisted user study tasks / study tasks",
+      "required": true
+    },
+    {
+      "id": "complaint_resolution_hours",
+      "unit": "hours",
+      "method": "case opened to resolved, excluding abandonments",
+      "required": true
+    }
   ],
-  "measurements": [],
-  "required_metrics": [
-    "cost_php_per_php_1000",
-    "recipient_usable_funds_time",
-    "successful_completion_rate",
-    "unassisted_task_completion",
-    "dispute_resolution_hours"
-  ]
+  "measurements": []
 }

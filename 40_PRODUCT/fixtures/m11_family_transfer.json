@@ -1,0 +1,38 @@
+{
+  "schema_version": "m1.1.0",
+  "environment": "synthetic-only",
+  "currency": "PHP",
+  "minor_units": "centavos",
+  "scenario_id": "FAMILY_TRANSFER_001",
+  "sender": "PERSONA_PROVINCE_001",
+  "recipient": "PERSONA_CITY_002",
+  "quote": {
+    "principal_minor": 100000,
+    "total_fee_minor": 1500,
+    "provider_fee_minor": 1200,
+    "platform_fee_minor": 300,
+    "total_sender_debit_minor": 101500,
+    "lifetime_seconds": 300
+  },
+  "starting_sender_available_minor": 200000,
+  "expected": {
+    "sender_available_after_hold_minor": 98500,
+    "sender_held_after_hold_minor": 101500,
+    "sender_held_after_simulated_settlement_minor": 0,
+    "recipient_after_simulated_settlement_minor": 100000,
+    "provider_fee_payable_minor": 1200,
+    "platform_revenue_minor": 300
+  },
+  "negative_cases": [
+    "quote_expired",
+    "insufficient_funds",
+    "duplicate_idempotency_key",
+    "provider_unknown_timeout",
+    "duplicate_provider_event",
+    "out_of_order_event",
+    "unauthorized_actor",
+    "journal_imbalance",
+    "restore_then_reconcile"
+  ],
+  "actual_financial_activity": false
+}

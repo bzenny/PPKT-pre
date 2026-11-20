@@ -1,9 +1,9 @@
-# PPKT Building Charter v0.2.2 — International governance / Philippine delivery draft
+# PPKT Building Charter v0.2.2 — jurisdiction and operating-cost revision
 
 **PH Probinsyano Token — Corporate, Product, Governance and Technical Building Charter**  
 **Version:** 0.2.2-DRAFT | **Prepared:** 20 November 2026 | **Status:** PROPOSED — NOT RATIFIED  
 **Supersedes:** nothing until formal adoption; develops v0.1 (7 October 2026).  
-**Jurisdictional design assumption:** Philippines-first service market and preferred delivery base; international parent management location (Singapore or specified Dubai regime) remains unselected.
+**Jurisdictional design assumption:** Philippines is the preferred cost-efficient development and service delivery location and first intended customer market. Corporate parent, capital oversight and management jurisdiction remain undecided (Singapore or a specified Dubai regime, subject to legal and partner due diligence).
 
 > **Authority warning:** This document is a design and adoption proposal. It is not proof of incorporation, authority to issue currency/tokens, a regulatory permit, bank relationship, existing board, protected trust account, or public fundraising authorization. It neither conveys consumer rights nor changes historical obligations until the appropriate legal instruments and counterparties are in force.
 
@@ -20,26 +20,24 @@ The mission is to make practical financial access understandable, dependable and
 3. **KDef** names a proposed independently governed development-fund function. It does not imply that a fund has been endowed, a charity incorporated, or assets safeguarded.
 4. All public-facing financial, financial-promotion and development statements must visibly distinguish `concept`, `simulation`, `partner-operated live service`, `issued asset`, and `licensed activity`. In v0.2's present unratified state, everything remains **concept or sandbox**.
 
-## Article 2 — International parent options, Philippine delivery and lawful authority
+## Article 2 — Corporate architecture and lawful authority
 
-**Status: proposed; no company, investor commitment, domicile or bank relationship has been confirmed.** The management and parent company may be constituted in Singapore or a legally specified Dubai regime, subject to investor and legal diligence. **The Philippines remains the preferred location for technology development, support and lawful service delivery because of its expected cost advantage.** An overseas parent choice does not imply an overseas workforce or transfer of all customer money offshore.
+**Proposed international-parent-capable model; no domicile, entity or shareholder is currently approved:**
 
-- **ParentCo:** optional future entity responsible for investment governance, board strategy, legal IP ownership and company treasury oversight within its actual licensed and tax-authorized scope. No preferred jurisdiction has been adopted.
-- **PH Delivery / ProductOps:** Philippine-based engineering, support, accounting operations and permitted administration; entity, subcontracting, labor and privacy terms require lawful formation or contracts.
-- **PH-facing customer service:** a separately authorized PH entity or relevant licensed partners, depending on service and obligations. Offshore incorporation cannot bypass Philippine requirements.
-- **Future PPKT issuer:** no issuer designated or authorized. Any instrument needs separately approved issuance, reserve, redemption, custody, solvency and territorial legal analysis.
-- **KDef:** development stewardship funded only from identified unencumbered resources, not customer reserves.
-- **PCCO:** neither issued nor automatically an investment, governance right or stablecoin backing.
+- **Parent/Holding company (`ParentCo`):** an as-yet-unformed entity that may be established in Singapore or the United Arab Emirates (with Dubai as a management possibility), subject to jurisdiction selection, verified substance, governance, licensing scope, shareholder protections and approved investor terms. ParentCo may own the brand and intellectual property, hold equity stakes and coordinate capital strategy. Its existence, directors, shareholdings, banking and management location are **not established** by this draft.
+- **Philippine activity (`PHServiceCo` or authorized counterparty):** the corporate vehicle, registered branch, properly licensed local partner or other legally permissible arrangement necessary for each Philippine-facing activity. Its exact form is undecided. The offshore parent structure does not replace required Philippine registration, consumer protection, market conduct, tax, data or payment/crypto-asset permissions.
+- **Technology/product operating function (`ProductOps`):** a service team or properly contracted entity providing identity, access, customer interface, recordkeeping and a synthetic first-service simulator. Its place of development need not determine where financial services are legally supplied.
+- **Regulated financial service entities and partners:** any payment, remittance, custody, KYC/AML, banking, reserve, digital-token issuance or investment service must be mapped to an actually authorized entity and evidence-based jurisdiction-specific contracts. A group entity's licence never automatically licenses its subsidiaries, affiliates or market-facing interfaces.
+- **Future PPKT issuer:** a distinct reserved decision. If issuance is pursued, first determine the lawful issuer jurisdiction, token classification, PHP redemption obligations, reserve quality, custody, issuer financial resources, tax treatment and rules of every offered market. No issuer has been authorized.
+- **KDef:** an independently stewarded development-fund function funded from unencumbered company capital, documented donations or lawful grants, never customer backing. Its legal vehicle, jurisdiction, committee appointment, tax status and fiduciary duties require adoption.
 
-**Separate location decisions:** location of workers, management, bank/custody, treasury, settlement, legal customer liability, regulated service provider and financial statements are separate matters. No proposal or investor discussion grants authority over a category not explicitly defined.
+**Cost-location distinction and evidence rule:** Philippine-based engineering, support, administration and other lawful activities are the preferred operating-cost baseline because of a substantial potential cost advantage. The size of that advantage remains a confidential, unverified internal estimate; it cannot be presented publicly as an audited fact or used without a clearly defined comparator. Selecting Singapore or Dubai for parent management does **not** imply relocating the Philippine delivery workforce or the Philippine customer operations. Consolidated group costs must include foreign holding-company formation/substance, directors, banking, assurance, regulatory advice, tax, cybersecurity, transfer pricing and lawful intercompany payments. Savings on *local delivery* must never be presented as net savings on the *whole group* without a complete model.
 
-**Cost model:** initial proposals indicate material lower costs for PH-based delivery, but quantified percentages, partner negotiations and commercial terms must remain confidential until independently verified and cleared for disclosure. The consolidated group budget must include foreign-parent substance, compliance, audit, banking, cross-border tax, FX and contingencies; a domestic labor cost advantage is not automatically the same as total international-group savings.
+**Risk-location distinction:** Higher perceived counterparty, institutional, currency, liquidity and regulatory-continuity risks in the Philippine financial environment are material hypotheses requiring due diligence, not universal findings about all Philippine banks or public institutions. Separate and independently evidence (a) operational delivery location, (b) contracting/management entity, (c) ownership of IP, (d) custody of customer backing, (e) corporate treasury, (f) settlement service provider, (g) books and statutory filings, and (h) legal liability to the customer. Offshore incorporation alone neither insulates customer assets nor demonstrates solvency. Diversification, audited segregation, reconciliation, contractual enforceability, recovery arrangements and a bank/custody risk policy are required irrespective of location.
 
-**Risk model:** concerns about internal Philippine banking, institution solvency, oversight continuity and financial instability are material issues for diligence. Do not state categorically that all PH institutions are unsafe, or that offshore registration solves those risks. Verify counterparty strength, real fund segregation, liquidity, concentration limits, statements and independent attestations, continuity and legal enforceability in each relevant market.
+**Capital and negotiation boundary:** Interest from prospective international angel, seed, pre-investment or venture-capital relationships does not constitute available financing. No capital commitment, investment term, valuation, controlling interest, board seat, transfer of intellectual property or beneficial ownership is recognized without signed documents, due diligence and legally effective approvals. **Confidential negotiations, partner identities and terms must not be placed in this public repository.**
 
-**Capital negotiations:** Singapore and Dubai partners are prospective only; no terms, valuation, investment, owner, board control, bank account or fundraising permission is established. Protect partner identities, discussions, proposed allocations and detailed cost data in an access-controlled private deal room, not in public GitHub.
-
-**No phantom entities:** This charter is not evidence that an international parent, Philippine subsidiary, issuer or trustee exists, or that any investment or token offering is permitted.
+**No phantom entities:** This proposal is not evidence that a Singapore or Dubai company, Philippine subsidiary, foundation, investment vehicle, bank account or regulator-approved issuer exists. Any website, pitch, token documentation or financing discussion must clearly distinguish project concept from legal status. There is no permission to publicly sell equity, tokens or investment interests based on this draft.
 
 ## Article 3 — Four floors and modular boundaries
 
@@ -52,9 +50,9 @@ A floor means **responsibility**, not technical privilege or microservice. Every
 
 ## Article 4 — Corporate governance and user independence
 
-**Target OperatingCo governance model:** five directors, with a target of at least two independent non-executive perspectives, as a proposed internal design **not a statement of statutory requirement**. Actual director number, nationality, eligibility, elections, fiduciary duties, appointment of officers and amendment mechanics must comply with corporate law and filed documents. Initial authorized roles are `Board`, `CEO/Service Owner`, `Finance and Reconciliation Lead`, `Security and Privacy Lead`, `Legal/Compliance Lead` and `Independent Reviewer`; names remain vacant until recorded.
+**Target ParentCo governance model:** five directors, with a target of at least two independent non-executive perspectives, as a proposed internal design **not a statement of statutory requirement**. Actual director number, nationality, eligibility, elections, fiduciary duties, appointment of officers and amendment mechanics must comply with corporate law and filed documents. Initial authorized roles are `Board`, `CEO/Service Owner`, `Finance and Reconciliation Lead`, `Security and Privacy Lead`, `Legal/Compliance Lead` and `Independent Reviewer`; names remain vacant until recorded.
 
-- **Corporate board** exercises legally assigned corporate powers; no user council or token-holder vote purports to displace mandatory statutory duties.
+- **Parent board** exercises legally assigned corporate powers in its actual jurisdiction; no user council or token-holder vote purports to displace mandatory statutory duties.
 - **User Council (proposed five seats):** a distinct, non-investor representation body with independent membership verification, transparent selection/terms, complaints and protected-policy review. A seat cannot be bought with holdings, split across wallets, or assigned to a capital-weighted proxy. Council powers need enforceable corporate bylaws/contractual implementation before being claimed publicly.
 - **KDef Committee (proposed seven seats):** independent stewardship under Article 9; no current appointments implied. Separate the committee's project-selection and disbursement authority from the ledger operator and financial controller.
 - **Oversight:** directors and committee members disclose financial interests, recuse where necessary, and record conflict decisions. A conflict is not cured by silent abstention.
@@ -70,7 +68,7 @@ For modules using a licensed partner, rights and responsibilities must reflect t
 
 **Stage P0 — design/sandbox:** PPKT is a project identifier and simulated unit where appropriate; there is **no publicly issued PPKT token**, traded market, binding peg, exchange rate, or reserve-backed redeemable claim. Sandbox balances and images must be labeled simulated.
 
-**Stage P1 — partner-led useful service (preferred MVP):** OperatingCo offers an access and workflow interface to an authorized provider, within the exact scope legal counsel and the provider approve. Customer money is controlled by the appropriate licensed entity; the record of authority documents who owes the obligation and who handles each dispute. OperatingCo does not automatically become the issuer, banker, custodian, remittance operator or VASP simply by using an API.
+**Stage P1 — partner-led useful service (preferred MVP):** ParentCo or the applicable group entity offers an access and workflow interface to an authorized provider, within the exact scope legal counsel and the provider approve. Customer money is controlled by the appropriate licensed entity; the record of authority documents who owes the obligation and who handles each dispute. ParentCo or the applicable group entity does not automatically become the issuer, banker, custodian, remittance operator or VASP simply by using an API.
 
 **Stage P2 — optional issuance decision:** No mint, sale, list, public distribution or exchange occurs until: (a) legal classification and permissible route are confirmed; (b) issuer is identified and authorized; (c) a written peso claim, issuance/redeem process, custody and asset-ownership treatment are enforceable; (d) qualifying liquid reserves, independent attestations and segregation are operational; (e) an audited threat model and appropriate contract/security audits exist; (f) independent governance and public disclosures approve. A **peso-linked ambition** is not the same as an enforceable 1:1 peso claim. PPKT issuance is **not approved** in v0.2.
 
@@ -101,7 +99,7 @@ Legal custody and bank accounts must reflect the product's actual requirements; 
 
 KDef is the project-development stewardship program, **not** a blanket investment trust or a source of token collateral. A future seven-member committee, if credible and lawfully established, may authorize ordinary KDef commitments/disbursements only with **5/7 votes**, recorded on the exact beneficiary, amount, scope, conditions, timing and conflicts. Execution requires **5/7 controlled signing** where adopted and technically possible, with two-person controls on preparation and reconciliation. This 5/7 standard cannot bypass mandatory banking/corporate rules. No 4/7 alternate transfer path.
 
-No grant executes based solely on a committee vote: funds must exist in KDef capital, milestones must be evidenced, recipients checked, and executed payment reconciled. KDef officers do not override board fiduciary obligations or customer rights. If a seven-seat independent committee cannot be staffed, **KDef spending beyond ordinary, approved OperatingCo project costs stays on hold** pending a documented alternative.
+No grant executes based solely on a committee vote: funds must exist in KDef capital, milestones must be evidenced, recipients checked, and executed payment reconciled. KDef officers do not override board fiduciary obligations or customer rights. If a seven-seat independent committee cannot be staffed, **KDef spending beyond ordinary, approved ParentCo or the applicable group entity project costs stays on hold** pending a documented alternative.
 
 ## Article 10 — Authority and controlled decisions
 
@@ -155,23 +153,26 @@ To adopt v0.2, the legally competent proponents must specify: (1) entity/formati
 
 ---
 
-## Article 17 — Comparative location, capital and financial-risk authority
+## Article 17 — International domicile, investor governance and cross-border controls
 
-1. **Choose by evidence, not by assertion.** Evaluate at least three comparable configurations: Philippines-concentrated, Singapore-parent/PH-delivery and Dubai-parent/PH-delivery. Dubai's exact zone and regulator must be known before comparison.
-2. **Protect cost advantage.** Philippine delivery is the operating default unless a demonstrated alternative improves risk-adjusted performance. Measure consolidated group startup and recurring costs: PH employment/vendors, international management substance, corporate compliance, treasury, bank/custody, independent audits, FX, data, tax, legal, security and stress-contingency.
-3. **Numerical claims must be verified.** Partner-proposal savings are unverified internal estimates and are excluded from public performance representations. Record cost basket, date, comparator, evidence, sensitivity, decision authority and independent reviewer in confidential diligence.
-4. **Banking and solvency gate.** Before handling financial assets, verify each relevant bank or custodian, its permitted role and financial condition; ensure appropriate safeguarded fund ownership, enforceable rights, segregation, concentration limits, liquidity reserves, independent account statements and tested recovery plans.
-5. **Cross-border control.** Exposures, intercompany movements, capital acceptance and treasury allocation require lawful purpose, independent approval, tax and FX assessment, recorded beneficiary, KYC/AML as applicable, and independent reconciliation. Customer liabilities must never be used as company runway.
-6. **Investor conditionality.** Investor preference for parent location is a negotiation input, not proof of legal or financial authorization. No governance rights or capital commitments may be claimed without executed terms, reviewed rights, actual settlement and authorized records.
-7. **Regulatory and local consumer rights.** A foreign parent does not remove Philippine customer-market or partner requirements. Each licensed activity and offer jurisdiction must be identified and legally reviewed before funds move or offers are made.
-8. **Launch blocks.** No real-money activity until each separate location, counterparties, issuer rights (if any), reserve claims, tax and regulatory requirements, continuity and customer redress controls are evidenced and approved. CI cannot ratify them.
+1. **Corporate seat remains open.** Singapore, Dubai (outside DIFC), DIFC or another UAE regime may create materially different legal and regulatory consequences; descriptions such as “Dubai corporation” are insufficient to determine the applicable authority. A jurisdiction-selection memorandum must compare at least Singapore and the proposed exact Dubai legal zone on legal entity type, capital and ongoing substance, banking/custody quality, tax, beneficial ownership, regulatory permissions, investor protections, governance enforcement, dispute venue, data flows, exit and operating cost. No jurisdiction may be marked selected solely on a prospective investor's preference.
+2. **Substance and oversight.** If a foreign ParentCo is established, actual management, decision records, resident officers/directors where required, accounting, compliance control and local registered presence must meet applicable laws. A nominal mailbox is not a substitute for lawful substance.
+3. **Capital rights are negotiated, not inherited.** Angel/venture participation may be structured as equity, a permitted convertible instrument, another authorized instrument or not accepted at all, subject to documented legal and tax review. Valuation, cap table, reserved matters, investor information rights, funding milestones, board nominees, dilution, anti-dilution, transfer restrictions and dispute resolution remain uncommitted. **No assumption of token ownership, token yield, redemption, KDef spending authority or user-council votes from holding ParentCo shares.**
+4. **User and fund protection:** customer claims, ring-fenced backing if a future issuer exists, KDef, corporate cash and investment proceeds must be held/recorded in the legally correct entity and account. Cross-border intercompany transfers require written lawful purpose, beneficial-owner conflict review, transfer-pricing/tax review, dual authorization and reconciliation. Offshore placement alone is not evidence of reserve safety or financial solvency. The policy favors independently verified custody, attestations, counterparty diversification, measured concentration limits and documented recovery processes.
+5. **Philippine market permissions persist.** Every service offered to Filipino residents must receive a Philippine activity classification and legal opinion. In particular, BSP Memorandum M-2026-003 describes restrictions on direct Philippine retail access to offshore VASPs unless BSP/SEC registered; counsel must confirm the current scope and any subsequent amendments. Foreign incorporation must not be used as a claimed exemption from host-market financial and consumer protections.
+6. **Regulatory route is instrument-specific.** Singapore MAS digital-payment-token rules and its 2026 consultation on regulated stablecoins, Dubai VARA virtual-asset/issuance rules outside DIFC, and any applicable DIFC/DFSA or UAE federal rules require separate consideration. The historic MAS single-currency stablecoin labeling framework focuses on SGD and G10 currency pegs; a PHP-linked instrument must not be represented as MAS-regulated without a presently applicable explicit authorization.
+7. **Public transparency and protected confidentiality.** The public decision register states that corporate domicile, investor rights and regulatory route are pending. Confidential counterparty identities, proposed economics and legal advice belong in separately access-controlled diligence records—not public GitHub, logs or model prompts. The corporate management and investor governance schedule must be ratified before accepting funds or granting control rights.
+8. **Operating-cost and control model.** Plan finance and ProductOps as distinct budgets. Compare PH-all, Singapore-parent/PH-delivery and Dubai-parent/PH-delivery scenarios on identical volume, headcount, service level, labor rules, currency and reporting assumptions. Record CAPEX versus OPEX, recurring substance/assurance costs, banking and funding costs, FX, tax, contractual exposures, contingency and downside stress; document source dates, assumptions and owners. A lower price does not override mandatory solvency, security or legal requirements. Investor preference for a parent location and the operating team's cost advantage must both be reflected, but neither independently settles domicile. All investor-specific assumptions stay in a confidential deal room.
+9. **Counterparty and banking risk gates.** Before handling money, require a documented selection process for banks, custodians and settlement providers: licensing and legal capacity, audited financial health, concentration/credit exposure, resolution or deposit protection where applicable, settlement and withdrawal liquidity, safeguarding and reconciliation access, sanctions/AML capability, independent statements, operational incident history, provider substitution, disputes and contingency liquidity. Set exposure limits and incident escalation; test interruption and fund-recovery pathways. No unverified claim that a particular jurisdiction or bank removes all risk.
+
+10. **Funding gate.** Fundraising or investment acceptance is independently gated from code completion and requires a lawful solicitation/placement pathway, accepted term sheet, identified investor/counterparty checks, AML/sanctions review as applicable, authorized signatories and properly controlled accounts. There is no implied revenue, runway, balance-sheet asset or financing commitment before actual settlement and valid accounting.
 
 ## Schedule A — Decisions required for adoption
 
 | ID | Determination | Current recommended default | Status |
 |---|---|---|---|
 | D-001 | Public brand / identifier | PH Probinsyano Token / PPKT, Symbol 05 | DESIGN SELECTED, production assets pending |
-| D-002 | Parent domicile and delivery model | International ParentCo candidate Singapore or specified Dubai regime; PH delivery preferred | OPEN; no entity formed |
+| D-002 | Parent domicile and group formation | International ParentCo candidate: Singapore or specified Dubai regime; Philippine operations separately scoped | OPEN; no entity formed |
 | D-003 | First service | Synthetic family transfer; then authorized partner path | PROPOSED |
 | D-004 | PPKT token/issuer | Not issued; any issuer is separate future approval | PROPOSED NO-ISSUANCE DEFAULT |
 | D-005 | PCCO | No issuance, yield or transferable rights in MVP | PROPOSED DEFER |
@@ -182,12 +183,11 @@ To adopt v0.2, the legally competent proponents must specify: (1) entity/formati
 | D-010 | Technology baseline | GitHub CORE; Cloudflare + Supabase + AI Studio prototyping | PROPOSED; no deployment recorded |
 | D-011 | Chain selection | No chain chosen; scenario and contract tests first | DEFERRED |
 | D-012 | Protected amendments | 30-day notice, distinct 2/3 bodies, statute first | PROPOSED |
-
-| D-013 | Prospective international financing | Nonbinding talks, confidential terms and no authorized solicitation | OPEN | 
-| D-014 | PH activity authorization | Separate approval for each market-facing regulated activity | OPEN |
-| D-015 | Custody and bank solvency | Independently reviewed segregation, concentration and continuity | OPEN |
-| D-016 | PH delivery cost preference | Material estimate, numeric assumptions confidential until verified | OPEN |
-| D-017 | International parent treasury location | Separate from employees, customers, backing and payment settlement | OPEN |
+| D-013 | Investor capital and controls | Pending discussions; no binding terms, board rights or incoming capital assumed | OPEN — confidential diligence only |
+| D-014 | Local market model | Philippines local entity, branch or licensed partner as legally required | OPEN — no bypass of local rules |
+| D-015 | Banking and solvency controls | Audited segregation, counterparty limits and independent reserve attestations | OPEN — jurisdiction-neutral evidence |
+| D-016 | Operational domicile and cost advantage | PH-first delivery preference; quantified estimate in confidential working papers, not verified commercial savings | OPEN — comparable model and verified cost assumptions |
+| D-017 | Group treasury and risk placement | Parent oversight considered SG/Dubai; PH-local bank/partner exposure to be identified and capped, lawful custody must follow customer obligations | OPEN — independent counterparty and segregation review |
 
 ## Schedule B — Authority table (summary)
 
@@ -201,6 +201,11 @@ To adopt v0.2, the legally competent proponents must specify: (1) entity/formati
 | Protected amendment | Governing proposer | Separate 2/3 board and user council, applicable legal votes | Corporate secretary/implementer | Signed resolutions and public notice |
 
 ## Schedule C — Regulatory diligence register (not legal advice)
+
+- [Singapore MAS stablecoin consultation (1 September 2026)](https://www.mas.gov.sg/news/media-releases/2026/mas-consults-on-legislative-amendments-to-implement-stablecoin-regulatory-framework): proposed framework, not a license or automatic PHP-pegged classification.
+- [Singapore MAS digital-token provider clarification (6 June 2025)](https://www.mas.gov.sg/news/media-releases/2025/mas-clarifies-regulatory-regime-for-digital-token-service-providers): check Singapore-incorporated entities serving abroad and licence scope.
+- [Dubai VARA licensed activities](https://www.vara.ae/en/licenses-and-register/licensed-activities/) and [virtual asset issuance rulebook](https://rulebooks.vara.ae/rulebook/virtual-asset-issuance-rulebook): check zone and activity-specific approval; DIFC is distinct.
+
 
 - [Republic Act No. 11232 — Revised Corporation Code](https://lawphil.net/statutes/repacts/ra2019/ra_11232_2019.html): verify entity structure, name approval, articles, board/bylaws and member/stockholder powers.
 - [BSP Circular No. 1108 (2021)](https://www.bsp.gov.ph/Regulations/Issuances/2021/1108.pdf) and [BSP Memorandum M-2025-031](https://www.bsp.gov.ph/Regulations/Issuances/2025/M-2025-031.pdf): VASP classification and new-license moratorium must be reviewed against current activity.
@@ -229,3 +234,5 @@ These are research pointers dated 20 November 2026; counsel should confirm subse
 | Independent user representatives (once established) | **NOT APPOINTED** | — | — |
 
 **Ratification status:** `NOT RATIFIED`.
+
+> **COST/RISK CLARIFICATION (20 NOVEMBER 2026):** The preferred PH development and operating cost base is intentionally retained while international parent management and financial controls are assessed. Private proposal estimates require verification and do not establish group-wide savings, bank solvency or a selected jurisdiction.

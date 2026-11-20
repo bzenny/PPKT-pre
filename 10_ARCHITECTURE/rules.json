@@ -1,6 +1,10 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.0-draft",
   "complexity": "CORE",
+  "next_stages": [
+    "STRUCTURED",
+    "INTELLIGENT"
+  ],
   "ordered_context": [
     "FOLDERS",
     "HTML",
@@ -10,15 +14,24 @@
   ],
   "authority_priority": [
     "applicable_law_and_executed_contracts",
-    "ratified_human_decisions",
-    "registered_modules",
-    "implementation"
+    "valid_human_adoption",
+    "ratified_charter",
+    "registered_specification",
+    "implementation_and_observations"
   ],
-  "prohibited": [
-    "code_grants_legal_license",
-    "token_burn_implies_fiat_payout",
-    "unverified_cost_savings_claim",
-    "unbacked_stablecoin_issue",
-    "secrets_in_public_repo"
-  ]
+  "prohibited_assumptions": [
+    "document equals permit",
+    "CI pass equals charter adoption",
+    "sandbox balance equals customer money",
+    "PCCO forms PPKT required collateral",
+    "token burn equals fiat settlement"
+  ],
+  "security_guards": [
+    "least_privilege",
+    "independent_reconciliation",
+    "no_production_secrets_in_repo",
+    "synthetic_data_default",
+    "evidence_required_for_release"
+  ],
+  "module_policy": "a module cannot bypass shared financial/identity/approval controls; choose a modular monolith first"
 }

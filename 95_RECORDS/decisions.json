@@ -4,63 +4,190 @@
   "decisions": [
     {
       "id": "D-001",
-      "name": "Brand",
+      "topic": "Brand",
+      "choice": "PH Probinsyano Token; identifier PPKT; Symbol 05",
       "status": "design-selected",
-      "value": "PH Probinsyano Token/PPKT; Symbol 05"
+      "needs": [
+        "vector",
+        "small-scale test",
+        "name clearance"
+      ]
     },
     {
       "id": "D-002",
-      "name": "Parent jurisdiction",
+      "topic": "Operating company",
+      "choice": "International ParentCo; domicile and management jurisdiction unselected (Singapore or Dubai legal-zone options); PH market permissions separately determined",
       "status": "open",
-      "value": "Singapore or Dubai"
+      "needs": [
+        "jurisdiction legal memo",
+        "partner/capital due diligence",
+        "entity setup",
+        "banking safeguards"
+      ]
     },
     {
       "id": "D-003",
-      "name": "PH delivery",
+      "topic": "MVP",
+      "choice": "synthetic family transfer then licensed partner assessment",
       "status": "proposed",
-      "value": "Preferred operations location; cost advantage unverified"
+      "needs": [
+        "first user interviews",
+        "product owner",
+        "legal scope"
+      ]
     },
     {
       "id": "D-004",
-      "name": "PPKT issuance",
-      "status": "deferred",
-      "value": "No issued token in CORE"
+      "topic": "PPKT issuance",
+      "choice": "no issuance in CORE; separate issuer decision later",
+      "status": "proposed",
+      "needs": [
+        "license pathway",
+        "liabilities",
+        "reserve and redemption design"
+      ]
     },
     {
       "id": "D-005",
-      "name": "PCCO",
-      "status": "deferred",
-      "value": "No issued/redeemable/yield-bearing token"
+      "topic": "PCCO",
+      "choice": "no issued/transferrable token or yield/staking in MVP",
+      "status": "proposed",
+      "needs": [
+        "future product case",
+        "legal classification"
+      ]
     },
     {
       "id": "D-006",
-      "name": "KDef",
+      "topic": "KDef",
+      "choice": "separate operating capital; 7 members and 5/7 proposal",
       "status": "proposed",
-      "value": "Independent committee and protected funding"
+      "needs": [
+        "funding",
+        "independent appointments",
+        "signing mandate"
+      ]
     },
     {
       "id": "D-007",
-      "name": "Financial control",
-      "status": "open",
-      "value": "Segregated funds and independent bank/custodian diligence"
+      "topic": "Governance",
+      "choice": "5 proposed directors; 5 user representatives; separate protected amendment route",
+      "status": "proposed",
+      "needs": [
+        "ratification",
+        "enforceable instruments",
+        "actual appointees"
+      ]
     },
     {
       "id": "D-008",
-      "name": "Investor fundraising",
-      "status": "uncommitted",
-      "value": "Prospective, no signed terms or capital recognized"
+      "topic": "Protected reserves",
+      "choice": "no PCCO backing, loans, risk investments or cross-subsidy from backing",
+      "status": "hard-design-boundary",
+      "needs": [
+        "legal contracts and accounting implementation"
+      ]
+    },
+    {
+      "id": "D-009",
+      "topic": "Technology",
+      "choice": "CORE FOLDERS>HTML>Markdown>JSON>YAML, modular monolith, choose chain later",
+      "status": "proposed",
+      "needs": [
+        "reproducible CI",
+        "verified need for chain"
+      ]
+    },
+    {
+      "id": "D-010",
+      "topic": "Charter approval",
+      "choice": "v0.2 proposed, NOT RATIFIED",
+      "status": "unratified",
+      "needs": [
+        "human resolutions",
+        "legal sign-off",
+        "named authorities"
+      ]
+    },
+    {
+      "id": "D-011",
+      "topic": "Protected changes",
+      "choice": "30 days notice, separate 2/3 bodies and mandatory statutory votes",
+      "status": "proposed",
+      "needs": [
+        "council appointment",
+        "legal bylaws and rounding rules"
+      ]
+    },
+    {
+      "id": "D-012",
+      "topic": "GitHub publishing",
+      "choice": "new private repo ppkt-core with audited files, not existing unrelated repo",
+      "status": "planned",
+      "needs": [
+        "new repository created in authorized account",
+        "protected main branch"
+      ]
+    },
+    {
+      "id": "D-013",
+      "topic": "Prospective financing",
+      "choice": "No binding investor terms, funds, board/control rights or valuation assumed",
+      "status": "open",
+      "needs": [
+        "signed term sheet",
+        "authorized securities route",
+        "investor due diligence"
+      ]
+    },
+    {
+      "id": "D-014",
+      "topic": "Philippine market entry",
+      "choice": "Foreign parent does not bypass PH VASP/CASP/payment restrictions",
+      "status": "open",
+      "needs": [
+        "PH counsel",
+        "regulator classification",
+        "authorized partners"
+      ]
+    },
+    {
+      "id": "D-015",
+      "topic": "Cross-border custody and solvency",
+      "choice": "Jurisdiction-neutral segregation, attestation, custody quality and concentration limits",
+      "status": "open",
+      "needs": [
+        "independent financial audits",
+        "counterparty checks",
+        "recovery tests"
+      ]
     },
     {
       "id": "D-016",
-      "name": "Delivery cost model",
+      "topic": "PH operations cost baseline",
+      "choice": "Prefer PH development/support/operations; material estimated cost advantage is confidential and unverified; full-group cost requires independent model",
       "status": "open",
-      "value": "Confidential quantified estimate subject to independent validation"
+      "needs": [
+        "reference comparator",
+        "CAPEX/OPEX split",
+        "wage/contract assumptions",
+        "foreign parent overhead",
+        "verified source dates",
+        "risk-adjusted sensitivity"
+      ]
     },
     {
       "id": "D-017",
-      "name": "Cross-border risk",
+      "topic": "Group financial and solvency risk",
+      "choice": "Potential international parent oversight does not by itself remove PH financial risks or excuse local legal obligations",
       "status": "open",
-      "value": "Country/provider-specific liquidity and solvency review"
+      "needs": [
+        "bank/custodian diligence",
+        "fund segregation",
+        "counterparty concentration limits",
+        "stress and recovery plan",
+        "cross-border FX/tax/regulatory review"
+      ]
     }
   ]
 }

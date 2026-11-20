@@ -1,0 +1,44 @@
+{
+  "scenarios": [
+    {
+      "id": "happy_path",
+      "expected": "one payout confirmed and reconciled",
+      "type": "synthetic"
+    },
+    {
+      "id": "duplicate_request",
+      "expected": "same idempotency key maps to same logical request",
+      "type": "synthetic"
+    },
+    {
+      "id": "timeout_unknown",
+      "expected": "no repeat payout without original status resolution",
+      "type": "synthetic"
+    },
+    {
+      "id": "duplicate_callback",
+      "expected": "no duplicate credit or payout",
+      "type": "synthetic"
+    },
+    {
+      "id": "out_of_order_callback",
+      "expected": "state transition consistency preserved",
+      "type": "synthetic"
+    },
+    {
+      "id": "failed_payout",
+      "expected": "customer liability remains outstanding",
+      "type": "synthetic"
+    },
+    {
+      "id": "backup_restore",
+      "expected": "all obligations and evidence reconcile",
+      "type": "synthetic"
+    },
+    {
+      "id": "compromised_credential",
+      "expected": "pause/revoke, then independent review",
+      "type": "synthetic"
+    }
+  ]
+}

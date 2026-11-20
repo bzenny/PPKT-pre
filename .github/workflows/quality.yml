@@ -1,14 +1,24 @@
-name: PPKT-pre CORE checks
+name: CORE quality
 on:
   push:
   pull_request:
 jobs:
-  validate:
+  verify:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m unittest discover -s tests -v
-      - run: python scripts/check_core.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Registry and charter structure
+        run: python scripts/check_core.py
+      - name: Report release blocks without passing them
+        run: python scripts/release_readiness.py --report /tmp/ppkt-release-report.json
+      - name: Validate M1.1 design contract (not implementation)
+        run: python scripts/check_m11_contract.py

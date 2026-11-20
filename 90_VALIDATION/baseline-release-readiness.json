@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-20",
+  "ready_for_prelaunch": false,
+  "blockers": [
+    "Charter not ratified with effective date",
+    "Signed corporate and legal evidence missing",
+    "Independent approval source evidence missing",
+    "G0: unknown",
+    "G1: unknown",
+    "G2: unknown",
+    "G3: unknown",
+    "G4: unknown",
+    "G5: unknown",
+    "G6: unknown",
+    "G7: unknown",
+    "Comparable source observations missing",
+    "traditional_bank_transfer: missing independently verified comparable measures",
+    "coins_ph: missing independently verified comparable measures",
+    "maya: missing independently verified comparable measures"
+  ],
+  "note": "Machine checks do not replace external legal, corporate, financial or security authorization."
+}

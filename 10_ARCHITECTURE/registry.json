@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "entries": [
+    {
+      "id": "prime",
+      "path": "00_PRIME/PRIME.html",
+      "kind": "authority-navigation",
+      "status": "proposed"
+    },
+    {
+      "id": "brand",
+      "path": "20_BRAND/brand-standard.html",
+      "kind": "brand-authority",
+      "status": "selected-concept"
+    },
+    {
+      "id": "brand-tokens",
+      "path": "20_BRAND/design-tokens.json",
+      "kind": "machine-tokens",
+      "status": "draft"
+    },
+    {
+      "id": "charter",
+      "path": "30_CHARTER/PPKT_Building_Charter_v0_2.md",
+      "kind": "corporate-governance-charter",
+      "status": "unratified"
+    },
+    {
+      "id": "authority",
+      "path": "30_CHARTER/authority-matrix.json",
+      "kind": "decision-control",
+      "status": "proposed"
+    },
+    {
+      "id": "product",
+      "path": "40_PRODUCT/PRD.md",
+      "kind": "product-spec",
+      "status": "sandbox-only"
+    },
+    {
+      "id": "build",
+      "path": "50_BUILD/ARCHITECTURE.md",
+      "kind": "tech-architecture",
+      "status": "design-only"
+    },
+    {
+      "id": "gates",
+      "path": "70_DELIVERY/release-gates.json",
+      "kind": "prelaunch-evidence",
+      "status": "blocked"
+    },
+    {
+      "id": "decisions",
+      "path": "95_RECORDS/decisions.json",
+      "kind": "decision-ledger",
+      "status": "draft"
+    },
+    {
+      "id": "comparator",
+      "path": "60_EVIDENCE/competitors.json",
+      "kind": "competitive-source-register",
+      "status": "hypotheses-only"
+    },
+    {
+      "id": "domicile_diligence",
+      "kind": "governance",
+      "path": "30_CHARTER/JURISDICTION_DILIGENCE.md",
+      "status": "open"
+    }
+  ]
+}
