@@ -20,7 +20,7 @@ One PPKT should target a valid 1 PHP issuer redemption claim on an authorized pa
 ### Benchmark workloads: no invented throughput promises
 Using **scenario assumptions**, not forecasts, see `60_EVIDENCE/ppkt-capacity-scenarios.json`. For 100,000 monthly active users doing 8 transfers/month, ~800,000 transfers/month require just ~0.31 transfers/sec averaged over 30 days; at an assumed 20x traffic concentration ~6.17 transfers/sec. Backend/on-chain events may multiply by mint, burn and reconciliation strategy. Build throughput claims from actual observed traces.
 
-### Testnet bakeoff, same contract-equivalent behavior on each
+### Polygon Amoy acceptance tests, with conditional migration comparison
 1. Choose user experience: custodial partner-led versus self-custodial with recovery; document PH off-ramp and costs.
 2. Test 100, 1,000 and 10,000 synthetic transfers, with bursts, at least three separate observation periods and failures.
 3. Record fee per transfer incl gas sponsorship, account creation, RPC, signing, custody and infrastructure; measure p50/p95/p99, not marketing base fee.
@@ -33,7 +33,7 @@ Using **scenario assumptions**, not forecasts, see `60_EVIDENCE/ppkt-capacity-sc
 ### Decision rule (proposed)
 Candidate qualifies only if (a) a lawful credible issuer/partner path exists, (b) p95 all-in fees are competitive for the **₱500–₱1,000** intended user journey, (c) holder rights and recovery can be faithfully implemented, (d) security controls and audit tooling are satisfactory, and (e) financial reconciliations and network-exit obligations are unambiguous. If no candidate passes, keep PPKT service off-chain until it does.
 
-**Baseline choice for engineering:** EVM adapter and ERC-20 test contracts on **Polygon Amoy (chain ID 80002)**. **Do not call Polygon PPKT's official chain yet.** Build an equivalent Solana test for real fee/recovery comparison. **No primary-plus-bridge plan in v0.3.**
+**Baseline choice for engineering:** EVM adapter and ERC-20 test contracts on **Polygon Amoy (chain ID 80002)**. **Do not call Polygon PPKT's official chain yet.** Build an equivalent Solana test **only if Polygon fails required gates or a credible partner need justifies migration**. **No primary-plus-bridge plan in v0.3.**
 
 ## Research references (21 November 2026)
 

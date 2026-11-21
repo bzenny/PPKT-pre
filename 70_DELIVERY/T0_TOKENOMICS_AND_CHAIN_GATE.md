@@ -13,7 +13,7 @@
 - [x] Three labeled, independently reproducible scenario calculations  
 - [x] Polygon PoS, Solana, Base and Algorand candidates compared  
 - [ ] Implement chain-agnostic synthetic fiat/settlement state machine (existing M1.1 subject to D1)  
-- [ ] Run Polygon-Amoy and Solana-Devnet equivalent mock transfer benchmarks  
+- [ ] Run Polygon-Amoy mock transfer benchmarks; test Solana Devnet or alternate chain **only if an identified Polygon gate fails or partner feasibility requires a redesign**  
 - [ ] Validate gas, partner access, wallet recovery, failures, security, native controls and token decimal policy  
 - [ ] Record first approved official chain and network IDs under human engineering authority
 

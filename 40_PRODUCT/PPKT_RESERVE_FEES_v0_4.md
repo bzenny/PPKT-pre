@@ -66,7 +66,7 @@ Start only with verified independent runway, capital and risk-funding arrangemen
 ## 6. Proposed financial launch constraints
 - Zero issuance in P0/P1 until C0/F0 and real backing verified.
 - Before first real issue: approved issuer and qualified custody, actual terms, allowed assets, independent counsel and a paid-for reserve/liquidity assurance program, versioned contracts, security audit, risk capital and partner exit plan.
-- Initial circulation cap **based on approved liquidity/custodian operational capacity, not a preprinted speculative token allocation**; proposed step-ups only after stress/rights evidence. No arbitrary promise of 100 million units.
+- Initial circulation and rolling mint authorization ceilings **based on verified backing, issuer-defined limits, bank liquidity and custody capacity, not a preprinted speculative allocation**; the eventual contract must enforce bounded mint privileges and robust key recovery, never an unrestricted mint key; proposed step-ups only after stress/rights evidence. No arbitrary promise of 100 million units.
 - Issuance halt if uncovered liability, unverified bank statement, custody access restriction, unresolved mint key compromise, fraud escalation, sanction block or accounting mismatch.
 - Testnet under D1 only. Polygon testnet is CONFIRMED; mainnet chain not yet ratified, and migration/redesign remains available before official release.
 
