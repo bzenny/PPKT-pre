@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "ppkt-polygon-amoy-synthetic-only",
+  "version": "0.1.0",
+  "description": "Nonvaluable local/Amoy PPKT token lifecycle prototype — NOT a production issuer",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "check": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "@openzeppelin/contracts": "5.2.0",
+    "chai": "4.5.0",
+    "ethers": "6.13.4",
+    "hardhat": "2.22.15"
+  }
+}
