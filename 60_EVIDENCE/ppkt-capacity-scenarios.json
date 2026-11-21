@@ -1,0 +1,64 @@
+{
+  "version": "0.3-WORKING",
+  "unit": "PHP",
+  "month_days_assumed": 30,
+  "peak_multiplier_assumed": 20,
+  "all_numbers_are_illustrative": true,
+  "not_issued": true,
+  "permissioned_user_funds": false,
+  "throughput_counts_business_transfers_not_onchain_transactions": true,
+  "scenarios": [
+    {
+      "label": "Concept pilot",
+      "monthly_active_users": 1000,
+      "transfers_per_user_month": 2,
+      "avg_transfer_php": 500,
+      "assumed_avg_outstanding_php_per_user": 400,
+      "transfers_month": 2000,
+      "volume_php_month": 1000000,
+      "illustrative_reserve_backed_outstanding_php": 400000,
+      "average_transfers_per_sec": 0.00077,
+      "peak_transfers_per_sec_at_20x": 0.015
+    },
+    {
+      "label": "Limited launch",
+      "monthly_active_users": 10000,
+      "transfers_per_user_month": 4,
+      "avg_transfer_php": 1000,
+      "assumed_avg_outstanding_php_per_user": 750,
+      "transfers_month": 40000,
+      "volume_php_month": 40000000,
+      "illustrative_reserve_backed_outstanding_php": 7500000,
+      "average_transfers_per_sec": 0.01543,
+      "peak_transfers_per_sec_at_20x": 0.309
+    },
+    {
+      "label": "Growth reference",
+      "monthly_active_users": 100000,
+      "transfers_per_user_month": 8,
+      "avg_transfer_php": 1500,
+      "assumed_avg_outstanding_php_per_user": 1500,
+      "transfers_month": 800000,
+      "volume_php_month": 1200000000,
+      "illustrative_reserve_backed_outstanding_php": 150000000,
+      "average_transfers_per_sec": 0.30864,
+      "peak_transfers_per_sec_at_20x": 6.173
+    }
+  ],
+  "assumptions": [
+    "Monthly volume and redeemable outstanding supply are different measures.",
+    "The average outstanding balance per active user is an arbitrary design input, not forecast deposits.",
+    "Reserve backing must match actual redeemable liabilities and regulator/custodian rules.",
+    "Onchain events per transfer may be 0,1,or more depending on batching and partner rails.",
+    "Capital cost and liquidity under stress may dominate gas costs."
+  ],
+  "stress_cases": [
+    "20-percent-same-day-holder-redemption",
+    "single-custodian-outage",
+    "20x-demand-spike",
+    "10x-network-fee-spike",
+    "provider-debit-success-but-payout-unknown",
+    "oracle-and-provider-data-disagreement",
+    "issuer-signing-key-compromise"
+  ]
+}

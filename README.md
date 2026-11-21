@@ -1,3 +1,5 @@
+> **NAME CONFIRMED (21 November 2026):** The project and intended token are named **PPKT** (PH Probinsyano Token). The name is finalized; actual token issuance, symbol registration/listing, chain selection, and corporate/legal authorization remain separate decisions. Read [Tokenomics v0.3](40_PRODUCT/PPKT_TOKENOMICS_v0_3.md) and [Chain Decision](50_BUILD/ADR-0002_CHAIN_SHORTLIST.md) before introducing chain-specific code.
+
 > **NOVEMBER 20, 2026 UPDATE:** PPKT-pre is the incubator. Parent-company domicile is **not selected**; Singapore and Dubai are jurisdictions for evaluation. No partner financing, corporate formation, licence, token issuance or user-fund operations are confirmed.
 
 # PH Probinsyano Token / PPKT — PPKT-pre Foundation

@@ -15,7 +15,7 @@ The mission is to make practical financial access understandable, dependable and
 
 ## Article 1 — Name, identity and status
 
-1. Public ecosystem brand: **PH Probinsyano Token**. Market/project identifier: **PPKT**. Selected logo direction: **Symbol 05 — Community Heritage Mark**, with compact and monochrome variants subject to vectorization and legibility testing. **PPKP** remains a legacy historical shorthand; do not use it as a new market identifier.
+1. **PPKT is the established name** of the project and intended payment token, publicly styled **PH Probinsyano Token**. Naming is not provisional; issuance, registration, legal classification, and exchange availability remain separate and unapproved. Selected logo direction: **Symbol 05 — Community Heritage Mark**, with compact and monochrome variants subject to vectorization and legibility testing. **PPKP** remains a legacy historical shorthand; do not use it as a new market identifier.
 2. **PCCO** is a *provisional* sibling identity originally associated with “Pico/Piso.” The phrase conveys accessible, small-scale participation, **not** a claim that PCCO equals one peso or a peso subdivision, is legal tender, earns income, or is issued.
 3. **KDef** names a proposed independently governed development-fund function. It does not imply that a fund has been endowed, a charity incorporated, or assets safeguarded.
 4. All public-facing financial, financial-promotion and development statements must visibly distinguish `concept`, `simulation`, `partner-operated live service`, `issued asset`, and `licensed activity`. In v0.2's present unratified state, everything remains **concept or sandbox**.
@@ -66,7 +66,7 @@ For modules using a licensed partner, rights and responsibilities must reflect t
 
 ## Article 6 — PPKT product architecture and reserved token decision
 
-**Stage P0 — design/sandbox:** PPKT is a project identifier and simulated unit where appropriate; there is **no publicly issued PPKT token**, traded market, binding peg, exchange rate, or reserve-backed redeemable claim. Sandbox balances and images must be labeled simulated.
+**Stage P0 — design/sandbox:** PPKT is the established project name and an unissued simulated value unit during development; there is **no publicly issued PPKT token**, traded market, binding peg, exchange rate, or reserve-backed redeemable claim. Sandbox balances and images must be labeled simulated.
 
 **Stage P1 — partner-led useful service (preferred MVP):** ParentCo or the applicable group entity offers an access and workflow interface to an authorized provider, within the exact scope legal counsel and the provider approve. Customer money is controlled by the appropriate licensed entity; the record of authority documents who owes the obligation and who handles each dispute. ParentCo or the applicable group entity does not automatically become the issuer, banker, custodian, remittance operator or VASP simply by using an API.
 

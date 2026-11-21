@@ -20,7 +20,14 @@
   "corporate_domicile": "UNDECIDED",
   "parent_jurisdiction_candidates": [
     "Singapore",
-    "Dubai \u2014 exact legal zone TBD"
+    "Dubai — exact legal zone TBD"
   ],
-  "financing_status": "uncommitted"
+  "financing_status": "uncommitted",
+  "name": "PPKT",
+  "public_brand": "PH Probinsyano Token",
+  "naming_status": "fixed",
+  "economic_architecture": "40_PRODUCT/PPKT_TOKENOMICS_v0_3.md",
+  "official_chain": "not_selected",
+  "reference_testnet": "polygon-amoy-candidate",
+  "token_issued": false
 }
