@@ -1,0 +1,45 @@
+{
+  "project": "PH Probinsyano Token",
+  "identifier": "PPKT",
+  "icm_profile": "MasterSys CORE",
+  "version": "0.2.3-rc1.0",
+  "status": "unratified",
+  "is_issued_token": false,
+  "has_live_customer_funds": false,
+  "canonical_entry": "MASTER.html",
+  "canonical_charter": "30_CHARTER/PPKT_Building_Charter_v0_2_3_RC1.md",
+  "canonical_brand": "20_BRAND/brand-standard.html",
+  "current_service": "synthetic-family-transfer",
+  "explicit_exclusions": [
+    "public token issuance",
+    "rewards/staking yield",
+    "DEX or bridge",
+    "custody of user funds",
+    "payment service without licensed route"
+  ],
+  "corporate_domicile": "UNDECIDED",
+  "parent_jurisdiction_candidates": [
+    "Singapore",
+    "Dubai — exact legal zone TBD"
+  ],
+  "financing_status": "uncommitted",
+  "name": "PPKT",
+  "public_brand": "PH Probinsyano Token",
+  "naming_status": "fixed",
+  "economic_architecture": "40_PRODUCT/PPKT_TOKENOMICS_v0_3.md",
+  "official_chain": "not_selected",
+  "reference_testnet": "polygon-amoy-candidate",
+  "token_issued": false,
+  "testnet": {
+    "network": "Polygon PoS Amoy",
+    "chain_id": 80002,
+    "status": "selected",
+    "redesign_before_launch_allowed": true
+  },
+  "mainnet_chain": {
+    "status": "not_selected",
+    "can_change_until_official_release": true
+  },
+  "economic_spec": "40_PRODUCT/PPKT_RESERVE_FEES_v0_4.md",
+  "pcco_spec": "40_PRODUCT/PCCO_COMMUNITY_ECONOMICS_v0_2.md"
+}

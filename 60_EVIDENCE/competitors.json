@@ -1,0 +1,31 @@
+{
+  "version": "0.1",
+  "purpose": "comparison hypotheses; NOT product rankings or verified pricing",
+  "as_of": "2026-11-20",
+  "records": [
+    {
+      "id": "traditional_bank_transfer",
+      "name": "Philippine bank/e-wallet transfer",
+      "type": "non-crypto",
+      "verification": "unverified",
+      "source_url": null,
+      "user_journey": "same PHP principal, sender in province, recipient in city"
+    },
+    {
+      "id": "coins_ph",
+      "name": "Coins.ph product offerings",
+      "type": "crypto/fintech",
+      "verification": "unverified",
+      "source_url": null,
+      "user_journey": "comparable cash-out route and support"
+    },
+    {
+      "id": "maya",
+      "name": "Maya payment offerings",
+      "type": "fintech",
+      "verification": "unverified",
+      "source_url": null,
+      "user_journey": "comparable cash-in/out and digital payments"
+    }
+  ]
+}

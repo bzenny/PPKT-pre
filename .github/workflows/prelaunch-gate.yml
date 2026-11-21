@@ -1,0 +1,17 @@
+name: Prelaunch gate (manual)
+on:
+  workflow_dispatch:
+jobs:
+  controlled-release-check:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify technical scaffold
+        run: python scripts/check_core.py
+      - name: Assert actual release evidence and signatures
+        run: python scripts/release_readiness.py --enforce --report /tmp/ppkt-release-report.json

@@ -1,0 +1,13 @@
+{
+  "project": "PPKT CORE",
+  "release": "0.2.0-draft",
+  "prepared_on": "2026-11-20",
+  "charter": "0.2.3-RC1",
+  "charter_ratified": false,
+  "first_service": "synthetic-family-transfer",
+  "legal_entity_registered": false,
+  "public_network_deployed": false,
+  "note": "Version is for reproducible docs/CI only.",
+  "version": "0.2.3-rc1.0",
+  "parent_domicile": "UNDECIDED"
+}

@@ -1,0 +1,88 @@
+{
+  "version": "0.2.0",
+  "kind": "human-evidence-gates",
+  "status": "UNRATIFIED",
+  "gates": [
+    {
+      "id": "G0",
+      "name": "Corporate, product and charter authority",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G1",
+      "name": "GitHub reproducibility and access controls",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G2",
+      "name": "Synthetic user journey and usability",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G3",
+      "name": "Financial ledger/authorization invariants",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G4",
+      "name": "Staging integrations, monitoring and recovery",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G5",
+      "name": "Chain and partner risk assessment / testnet if justified",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G6",
+      "name": "Independent verifier, competitive and security evidence",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    },
+    {
+      "id": "G7",
+      "name": "Pre-launch legal, consumer, operational and risk approvals",
+      "status": "unknown",
+      "evidence": [],
+      "approved_by": [],
+      "reviewed_at": null,
+      "independent_attestation": false,
+      "requires_human": true
+    }
+  ],
+  "jurisdiction_selection_required_before_live_market": true
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.2.2",
+  "status": "proposal-unverified",
+  "preferred_delivery_location": "Philippines",
+  "parent_options": [
+    "Singapore",
+    "Dubai (exact legal zone unresolved)"
+  ],
+  "possible_combinations": [
+    "Philippines-only",
+    "Singapore parent + Philippines delivery",
+    "Dubai parent + Philippines delivery"
+  ],
+  "cost_model": {
+    "confidential_estimate_exists": true,
+    "numeric_percentage_public": false,
+    "source_validation": "pending",
+    "cost_basket": "undetermined",
+    "group_overhead_included": false,
+    "needed": [
+      "startup cost",
+      "monthly recurring cost",
+      "legal and corporate substance",
+      "treasury and assurance",
+      "banking and settlement fees",
+      "currency and tax",
+      "exit or relocation costs"
+    ]
+  },
+  "risk_model": {
+    "jurisdiction_independently_safe": false,
+    "needed": [
+      "counterparty and bank solvency",
+      "fund segregation",
+      "concentration",
+      "FX and liquidity",
+      "regulatory and contractual enforceability",
+      "recovery and incident response"
+    ]
+  },
+  "approved": false
+}

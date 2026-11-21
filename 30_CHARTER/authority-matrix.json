@@ -1,0 +1,111 @@
+{
+  "version": "0.2.1-DRAFT",
+  "status": "proposed",
+  "rules": [
+    {
+      "action": "ordinary_customer_flow",
+      "initiates": [
+        "user"
+      ],
+      "approves": [
+        "preauthorized_policy",
+        "user_consent"
+      ],
+      "executes": [
+        "authorized_operator_or_partner"
+      ],
+      "review": [
+        "independent_reconciler"
+      ],
+      "live_enabled": false
+    },
+    {
+      "action": "operational_exception",
+      "initiates": [
+        "finance_operations"
+      ],
+      "approves": [
+        "independent_reviewer"
+      ],
+      "executes": [
+        "segregated_operator"
+      ],
+      "review": [
+        "reconciliation_lead"
+      ],
+      "live_enabled": false
+    },
+    {
+      "action": "material_product_change",
+      "initiates": [
+        "product_owner"
+      ],
+      "reviews": [
+        "legal_compliance",
+        "security_privacy",
+        "finance"
+      ],
+      "approves": [
+        "board"
+      ],
+      "executes": [
+        "release_operator"
+      ],
+      "review": [
+        "independent_release_reviewer"
+      ],
+      "live_enabled": false
+    },
+    {
+      "action": "kdef_disbursement",
+      "initiates": [
+        "project_manager"
+      ],
+      "approves": [
+        "KDef_committee_at_least_5_of_7"
+      ],
+      "executes": [
+        "5_of_7_controlled_signers_if_adopted"
+      ],
+      "review": [
+        "finance_not_preparer_or_approver"
+      ],
+      "live_enabled": false
+    },
+    {
+      "action": "emergency_pause",
+      "initiates": [
+        "incident_responder"
+      ],
+      "approves": [
+        "immediate_containment_only"
+      ],
+      "reviews_in_hours": 24,
+      "expires_or_renews_in_hours": 72,
+      "prohibited": [
+        "protected_fund_transfer",
+        "erase_liability",
+        "unilateral_restart"
+      ],
+      "live_enabled": false
+    },
+    {
+      "action": "protected_amendment",
+      "initiates": [
+        "governance_proposer"
+      ],
+      "notice_days": 30,
+      "approves": [
+        "separate_board_two_thirds_of_full_body",
+        "separate_user_council_two_thirds_of_full_body",
+        "applicable_corporate_legal_approvals"
+      ],
+      "prohibited": [
+        "extinguish_customer_liabilities"
+      ],
+      "live_enabled": false
+    }
+  ],
+  "jurisdiction": "UNDECIDED",
+  "fundraise_authorized": false
+}

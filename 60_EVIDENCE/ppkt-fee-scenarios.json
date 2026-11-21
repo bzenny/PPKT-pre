@@ -1,0 +1,71 @@
+{
+  "version": "0.4-working-illustrative",
+  "as_of": "2026-11-21",
+  "currency": "PHP",
+  "legal_or_market_quote": false,
+  "service": "one-hop fiat payout (NOT all wallet transfers)",
+  "assumptions": {
+    "customer_fee_fixed_php": 5,
+    "customer_fee_variable_rate": 0.01,
+    "provider_cost_fixed_php": 5,
+    "provider_cost_variable_rate": 0.0035,
+    "network_support_risk_per_txn_php": 2
+  },
+  "scenarios": [
+    {
+      "name": "concept_pilot",
+      "transactions_month": 2000,
+      "mean_transfer_php": 500,
+      "fixed_overhead_month_php": 300000,
+      "customer_fee_php": 10,
+      "provider_cost_php": 6.75,
+      "other_variable_cost_php": 2,
+      "contribution_per_txn_php": 1.25,
+      "monthly_contribution_php": 2500,
+      "monthly_result_before_tax_php": -297500,
+      "break_even_transactions_month": 240000
+    },
+    {
+      "name": "limited_launch",
+      "transactions_month": 40000,
+      "mean_transfer_php": 1000,
+      "fixed_overhead_month_php": 600000,
+      "customer_fee_php": 15,
+      "provider_cost_php": 8.5,
+      "other_variable_cost_php": 2,
+      "contribution_per_txn_php": 4.5,
+      "monthly_contribution_php": 180000,
+      "monthly_result_before_tax_php": -420000,
+      "break_even_transactions_month": 133334
+    },
+    {
+      "name": "growth_reference",
+      "transactions_month": 800000,
+      "mean_transfer_php": 1500,
+      "fixed_overhead_month_php": 4000000,
+      "customer_fee_php": 20,
+      "provider_cost_php": 10.25,
+      "other_variable_cost_php": 2,
+      "contribution_per_txn_php": 7.75,
+      "monthly_contribution_php": 6200000,
+      "monthly_result_before_tax_php": 2200000,
+      "break_even_transactions_month": 516130
+    }
+  ],
+  "stress": {
+    "reference_outstanding_php": 10000000,
+    "redeem_same_day_fraction": 0.3,
+    "redeem_rapid_fraction": 0.5,
+    "reserve_blocked_fraction": 0.6,
+    "required_liquidity_30pct_php": 3000000,
+    "required_liquidity_50pct_php": 5000000,
+    "accessible_if_60pct_blocked_php": 4000000
+  },
+  "notes": [
+    "Only hypotheses; real provider contracts may differ drastically.",
+    "A 1:1 issuer redemption quote does not mean free cash-out; fees must be separately disclosed.",
+    "Stress blocked-fraction scenario is illustrative and not a risk probability.",
+    "Model excludes taxes, reserve assurance, regulatory capital financing costs, chargebacks and unexpected compliance/legal expense.",
+    "No stablecoin reserve or KDef proceeds may subsidize a loss-making company."
+  ]
+}
