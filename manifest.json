@@ -29,5 +29,17 @@
   "economic_architecture": "40_PRODUCT/PPKT_TOKENOMICS_v0_3.md",
   "official_chain": "not_selected",
   "reference_testnet": "polygon-amoy-candidate",
-  "token_issued": false
+  "token_issued": false,
+  "testnet": {
+    "network": "Polygon PoS Amoy",
+    "chain_id": 80002,
+    "status": "selected",
+    "redesign_before_launch_allowed": true
+  },
+  "mainnet_chain": {
+    "status": "not_selected",
+    "can_change_until_official_release": true
+  },
+  "economic_spec": "40_PRODUCT/PPKT_RESERVE_FEES_v0_4.md",
+  "pcco_spec": "40_PRODUCT/PCCO_COMMUNITY_ECONOMICS_v0_2.md"
 }

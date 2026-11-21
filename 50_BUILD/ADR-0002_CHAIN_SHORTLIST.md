@@ -1,7 +1,7 @@
 # ADR-0002 — Official Chain Shortlist and Proof-of-Fit
 
-**Status:** CANDIDATE DECISION; **no official issuance chain ratified**. 21 November 2026.
-**Working priority:** Polygon PoS (Amoy testnet) is **reference-chain candidate**, Solana is **mandatory challenger**, Base is **EVM alternate**, Algorand is **watch-list option**. No mainnet deploy, no bridging, no token presale.
+**Status:** POLYGON AMOY TESTNET SELECTED BY PROJECT SPONSOR; **mainnet chain not selected**. 21 November 2026.
+**Project decision:** use **Polygon PoS Amoy testnet (chain ID 80002)** for first simulated token contract and lifecycle. Retain a documented option to redesign or migrate before official launch if cost, security, recovery, partner, performance or stability tests fail. Solana and Base are comparison/exit candidates, not mandatory parallel implementations. No mainnet deploy, bridging, presale or real token issue.
 
 ## Why chain selection follows token obligations
 One PPKT should target a valid 1 PHP issuer redemption claim on an authorized path. That requires legal rights, reserve confirmation, custody, operational recovery and a transparent financial ledger regardless of the blockchain. The network records token supply and movements but does not prove bank solvency or fiat payout.
@@ -45,3 +45,7 @@ Candidate qualifies only if (a) a lawful credible issuer/partner path exists, (b
 - Solana Token Extensions: https://solana.com/docs/tokens/extensions
 - Polygon Chain payments scaling (first-party claims; benchmark independently): https://polygon.technology/blog/polygon-chain-now-supports-5000-payments-per-second-hitting-the-speed-of-a-card-network-at-a-fraction-of-the-cost
 
+
+
+## Explicit confirmation (21 November 2026)
+Polygon Amoy is the **chosen testnet**. The official mainnet chain is not yet chosen and has a nonbinding redesign/exit route. Do not equate testnet mint events with real PPKT issuance or real reserves. Production keys, funds, official chain and contracts stay gated by C0/F0.

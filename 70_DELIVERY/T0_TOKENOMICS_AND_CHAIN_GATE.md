@@ -25,3 +25,16 @@
 - [ ] Formal company and financial approval; public terms and exit plan  
 
 **No chain-specific production contract or onchain launch may begin merely because T0a has a preferred model.**
+
+## Sponsor decisions, 21 November 2026
+- [x] Name **PPKT** finalized
+- [x] Fully eligible-backed peso-referenced elastic issuance and prohibition on PCCO peg backing
+- [x] Polygon Amoy (80002) **selected testnet**; migration/redesign permitted before official mainnet approval
+- [ ] Ratify reserve composition, legal safeguarding, concentration and liquidity policy after external review
+- [ ] Ratify PPKT issuance/redemption agreements, legally responsible issuer and actual customer rights
+- [ ] Obtain actual provider, custody and compliance cost quotations; confirm sustainable services and fees
+- [ ] Approve or revise nontransferable, budget-funded PCCO contribution program
+- [ ] Validate stress-tested solvency/liquidity and actual accounting reconciliations
+- [ ] Select *official mainnet* only after testnet economics, controls, partner path and approved review
+
+See `40_PRODUCT/PPKT_RESERVE_FEES_v0_4.md`, `40_PRODUCT/PCCO_COMMUNITY_ECONOMICS_v0_2.md`, and `60_EVIDENCE/ppkt-fee-scenarios.json`. D1, C0 and F0 remain separately pending.
