@@ -1,0 +1,120 @@
+{
+  "version": "v0.1",
+  "stage": "synthetic_planning_only",
+  "model_date": "2026-11-21",
+  "source": "User-approved PPKT working economics; unverified engineering assumptions; not fundraising forecast",
+  "scenario_parameters": {
+    "Conservative": {
+      "users": [
+        1000,
+        2500,
+        5000,
+        8000,
+        12000
+      ],
+      "merchant_clients": [
+        5,
+        15,
+        35,
+        75,
+        150
+      ],
+      "fixed_opex_monthly": [
+        300000,
+        450000,
+        600000,
+        900000,
+        1200000
+      ],
+      "monthly_transactions_per_user": 2,
+      "average_payout_php": 750,
+      "fiat_payout_share": 0.4,
+      "merchant_fee_monthly_php": 1000,
+      "merchant_cost_monthly_php": 400,
+      "token_holder_share": 0.45,
+      "average_ppkt_balance_php": 500,
+      "wallet_cost_per_transfer_php": 0.3
+    },
+    "Base": {
+      "users": [
+        2500,
+        10000,
+        25000,
+        50000,
+        90000
+      ],
+      "merchant_clients": [
+        15,
+        100,
+        350,
+        900,
+        2000
+      ],
+      "fixed_opex_monthly": [
+        400000,
+        600000,
+        900000,
+        1500000,
+        2500000
+      ],
+      "monthly_transactions_per_user": 4,
+      "average_payout_php": 1000,
+      "fiat_payout_share": 0.35,
+      "merchant_fee_monthly_php": 1500,
+      "merchant_cost_monthly_php": 400,
+      "token_holder_share": 0.55,
+      "average_ppkt_balance_php": 750,
+      "wallet_cost_per_transfer_php": 0.3
+    },
+    "Aggressive": {
+      "users": [
+        5000,
+        25000,
+        75000,
+        160000,
+        300000
+      ],
+      "merchant_clients": [
+        25,
+        160,
+        800,
+        2500,
+        7000
+      ],
+      "fixed_opex_monthly": [
+        550000,
+        850000,
+        1800000,
+        4000000,
+        9000000
+      ],
+      "monthly_transactions_per_user": 6,
+      "average_payout_php": 1500,
+      "fiat_payout_share": 0.3,
+      "merchant_fee_monthly_php": 1800,
+      "merchant_cost_monthly_php": 500,
+      "token_holder_share": 0.65,
+      "average_ppkt_balance_php": 900,
+      "wallet_cost_per_transfer_php": 0.2
+    }
+  },
+  "global_inputs": {
+    "customer_fee_fixed_php": 5,
+    "customer_fee_rate": 0.01,
+    "provider_fixed_php": 5,
+    "provider_rate": 0.0035,
+    "other_variable_cost_php": 2,
+    "effective_profit_tax_rate": 0.25,
+    "pcco_share_of_positive_aftertax_surplus": 0.1,
+    "one_day_redemption_stress": 0.3,
+    "rapid_redemption_stress": 0.5,
+    "bank_blocked_fraction": 0.6
+  },
+  "notes": [
+    "Gross payout volume is a flow; reserve-backed token balances are a stock.",
+    "User uptake is assumed, NOT a market forecast.",
+    "Does not assume proven 60–68% operating-cost advantage.",
+    "PCCO is nontransferable budget-funded participation, not a payable token by default.",
+    "No real holders, funds, issuers or license."
+  ]
+}

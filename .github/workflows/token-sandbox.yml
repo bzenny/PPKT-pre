@@ -1,0 +1,37 @@
+name: PPKT sandbox economics and contract
+
+on:
+  push:
+    paths:
+      - "token-sandbox/**"
+      - "60_EVIDENCE/5y_model_inputs.json"
+      - ".github/workflows/token-sandbox.yml"
+  pull_request:
+    paths:
+      - "token-sandbox/**"
+      - "60_EVIDENCE/5y_model_inputs.json"
+      - ".github/workflows/token-sandbox.yml"
+
+jobs:
+  python-economic-controls:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s token-sandbox/python_tests -v
+      - run: python token-sandbox/tools/five_year_model.py
+  local-smart-contract:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: token-sandbox
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - run: npm test
+      - run: echo "TESTS ONLY -- no deployment scripts, no actual reserves, no mainnet token."
